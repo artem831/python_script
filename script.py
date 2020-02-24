@@ -40,7 +40,7 @@ def auto():
 	with open('/data/data/com.termux/files/usr/bin/auto','w') as autorun:
 		autorun.write('''
 clear
-python /data/data/com.termux/files/home/python/script.py
+python /data/data/com.termux/files/home/python_script/script.py
 ''')
 	os.system('chmod 777 /data/data/com.termux/files/usr/bin/auto')
 def main():
